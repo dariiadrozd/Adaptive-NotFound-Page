@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'Inter';
+}
+
+body {
+    background: #161622;
+    width: 1200px;
+}
+
+main {
+    display: flex;
+    margin: 269px 130px 0px 130px;
+    position: absolute;
+}
+
+main .ground p {
+    font: 400 24px 'Inter';
+    color: rgba(255, 255, 255, 0.75);
+    width: 590px;
+    height: 34px;
+    margin-bottom: 16px;
+    z-index: 1;
+}
+
+main .ground h1 {
+    font: 700 48px 'Inter';
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 40px;
+    width: 590px;
+    height: 116px;
+    z-index: 2;
+}
+
+main .ground .btnh button {
+    background: #6F1DF4;
+    border-radius: 8px;
+    font: 700 16px 'Inter';
+    color: #FFFFFF;
+    padding: 18px 40px;
+    width: 165px;
+    height: 56px;
+}
+
+
+main .ground .btnh button:not(:last-child){
+    margin-right: 25px;
+}
+
+main h1{
+    font: 700 250px 'Inter';
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    width: 510px;
+    height: 303px;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        margin: 80px auto;
+        text-align: center;
+        margin: 0;
+    }
+
+
+main .ground p {
+    font: 400 24px 'Inter';
+    width: 100%;
+    margin-bottom: 16px;
+
+}
+
+main .ground h1 {
+    font: 700 48px 'Inter';
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+main h1{
+    font: 700 250px 'Inter';
+    text-align: center;
+    width: 100%;
+}
+git add index.html
+main .ground .btnh {
+ width: 100%;
+}
+
+
+main .ground .btnh button:not(:last-child){
+    margin-right: 13px;
+}
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+main .ground p {
+    font: 400 24px 'Inter';
+    width: 100%;
+
+}
+
+main .ground h1 {
+    font: 700 48px 'Inter';
+    width: 100%;
+}
+
+main h1{
+    font: 700 250px 'Inter';
+    text-align: center;
+    width: 100%;
+}
+
+main .ground .btnh {
+ width: 100%;
+}
+
+
+main .ground .btnh button:not(:last-child){
+    margin-right: 0;
+}
+}
+
